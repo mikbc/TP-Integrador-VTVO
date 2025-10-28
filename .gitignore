@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# A partir de aquí las reglas agregadas son para evitar subir archivos del IDE, sistema operativo y base de datos:
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ IDEA project files
+*.iml
+.idea/
+out/
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows Thumbs files
+Thumbs.db
+
+# H2 Database files
+*.mv.db
+*.trace.db
