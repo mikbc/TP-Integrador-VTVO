@@ -70,3 +70,5 @@ TP-Integrador-VTVO/
  │         └── Notificacion.java
  │
  └── README.md
+ └── .gitignore
+ └── LICENSE
