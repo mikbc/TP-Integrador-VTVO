@@ -59,7 +59,7 @@ TP-Integrador-VTVO/
  │    │    ├── TurnoException.java
  │    │    └── EvaluacionException.java
  │    │
- │    └── modelo/
+ │    └── logica/
  │         ├── Usuario.java
  │         ├── Dueno.java
  │         ├── Inspector.java
